@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+Personal hobby project - goal is a simplistic webapp that fetches data from various competitive games I play with my friends. There are plenty out there but I want an app that displays everything I want to see on one page.
+
 ## Getting Started
 
 First, run the development server:
