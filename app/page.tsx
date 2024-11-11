@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import businessIcon from "../icons/businessIcon.png";
+import searchIcon from "../icons/searchIcon.png";
 
 export default function Home() {
   return (
@@ -13,8 +15,8 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
-            alt="File icon"
+            src={businessIcon}
+            alt="Business icon"
             width={16}
             height={16}
           />
@@ -27,8 +29,8 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src={searchIcon}
+            alt="Search icon"
             width={16}
             height={16}
           />
